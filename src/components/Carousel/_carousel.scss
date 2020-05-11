@@ -2,12 +2,19 @@
     &__items {
         position: relative;
         padding: 0;
+        margin-bottom: 3rem;
         list-style-type: none;
     }
 
     &__item {
         display: flex;
         flex-direction: column;
+        overflow: hidden;
+        border-radius: 2rem;
+        background: white;
+        box-shadow:
+            rem(20px) rem(20px) rem(60px) #d9d9d9,
+            rem(-20px) rem(-20px) rem(60px) white;
 
         &[data-is-active='false'] {
             position: absolute;
@@ -24,11 +31,12 @@
     }
 
     &__title {
-        margin: 1rem 0 0 0;
+        margin: 1rem 1rem 0 1rem;
     }
 
     &__copy {
         height: 8rem;
+        padding: 0 1rem;
         overflow-y: auto;
     }
 
@@ -39,10 +47,20 @@
     }
 
     &__nav-button {
-        width: 50%;
+        width: calc(50% - 1rem);
+        margin-right: 1rem;
         padding: 1rem;
-        color: white;
-        border: 1px solid white;
-        background-color: black;
+        background-color: white;
+        border: none;
+        border-radius: 2rem;
+        box-shadow:
+            rem(20px) rem(20px) rem(60px) #d9d9d9,
+            rem(-20px) rem(-20px) rem(60px) white;
+        cursor: pointer;
+
+        &:nth-of-type(2n) {
+            margin-right: 0;
+            margin-left: 1rem;
+        }
     }
 }

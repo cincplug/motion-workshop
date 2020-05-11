@@ -18,24 +18,24 @@ const CarouselItem = ({ title, copy, image, isActive }) => {
     }, [isActive]);
 
     const imageProps = useSpring(getAnimationConfiguration({
-        from: { transform: 'scale3d(0.9, 0.9, 0.9)' },
-        to: { transform: 'scale3d(1, 1, 1)' },
+        from: { transform: 'scale3d(1.1, 1.1, 1.1)', filter: 'blur(0.5em)' },
+        to: { transform: 'scale3d(1, 1, 1)', filter: 'blur(0em)' },
         config: { ...config.wobbly },
         delay: 200,
         isActive
     }))
 
     const titleProps = useSpring(getAnimationConfiguration({
-        from: { transform: 'translate3d(0, 0.5rem, 0)' },
-        to: { transform: 'translate3d(0, 0rem, 0)' },
+        from: { transform: 'translate3d(0, 0.5rem, 0)', opacity: 0 },
+        to: { transform: 'translate3d(0, 0rem, 0)', opacity: 1 },
         config: { ...config.wobbly },
         delay: 200,
         isActive
     }))
 
     const copyProps = useSpring(getAnimationConfiguration({
-        from: { transform: 'translate3d(0, -0.5rem, 0)' },
-        to: { transform: 'translate3d(0, 0rem, 0)' },
+        from: { transform: 'translate3d(0, -0.5rem, 0)', opacity: 0 },
+        to: { transform: 'translate3d(0, 0rem, 0)', opacity: 1 },
         config: { ...config.wobbly },
         delay: 200,
         isActive
