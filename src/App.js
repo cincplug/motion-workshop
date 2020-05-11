@@ -4,12 +4,18 @@ import React from 'react';
 
 // Utils
 
+// Data
+import CAROUSEL_ITEMS from './data/carouselItems.json';
+
 // Components
+import Carousel from './components/Carousel/Carousel';
 
 // Component
 const App = () => {
   return <main>
     <h1>Motion Workshop</h1>
+
+    <Carousel items={CAROUSEL_ITEMS} />
   </main>;
 };
 

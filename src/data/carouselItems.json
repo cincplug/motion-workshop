@@ -1,0 +1,27 @@
+[
+    {
+        "title": "This is slide A",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+        "image": "https://via.placeholder.com/600x300"
+    },
+    {
+        "title": "This is slide B",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+        "image": "https://via.placeholder.com/600x300"
+    },
+    {
+        "title": "This is slide C",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+        "image": "https://via.placeholder.com/600x300"
+    },
+    {
+        "title": "This is slide D",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+        "image": "https://via.placeholder.com/600x300"
+    },
+    {
+        "title": "This is slide E",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+        "image": "https://via.placeholder.com/600x300"
+    }
+]
