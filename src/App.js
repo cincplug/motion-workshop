@@ -9,14 +9,19 @@ import CAROUSEL_ITEMS from './data/carouselItems.json';
 
 // Components
 import Carousel from './components/Carousel/Carousel';
+import Sidebar from './components/Sidebar/Sidebar';
 
 // Component
 const App = () => {
-  return <main>
-    <h1>Motion Workshop</h1>
+  return <>
+    <Sidebar />
 
-    <Carousel items={CAROUSEL_ITEMS} />
-  </main>;
+    <main>
+      <h1>Motion Workshop</h1>
+
+      <Carousel items={CAROUSEL_ITEMS} />
+    </main>
+  </>;
 };
 
 // Props

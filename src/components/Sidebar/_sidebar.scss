@@ -1,0 +1,32 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    overflow-y: auto;
+    color: #c0c0c0;
+    background-color: #fafafa;
+
+    @include mq($mq-tab--sml) {
+        width: 20rem;
+        height: 100vh;
+    }
+
+    &__items {
+        padding: 0;
+        list-style-type: none;
+
+        .sidebar__items {
+            padding-left: 2rem;
+        }
+    }
+
+    &__item {
+    }
+
+    &__link {
+        display: block;
+        padding: 0.5rem 0;
+        color: #666666;
+    }
+}

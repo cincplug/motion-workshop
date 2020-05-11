@@ -1,12 +1,23 @@
+* {
+    box-sizing: border-box;
+    color: #666666;
+}
+
 #root {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
+    @include mq($mq-tab--sml) {
+        flex-direction: row;
+    }
 }
 
 main {
-    max-width: 40rem;
+    max-width: 50rem;
+    margin: 0 auto;
     padding: 2rem;
 
     > h1 {
