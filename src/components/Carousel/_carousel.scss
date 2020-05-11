@@ -17,6 +17,10 @@
             left: 0;
             pointer-events: none;
         }
+
+        &[data-is-hidden='true'] {
+            opacity: 0;
+        }
     }
 
     &__title {
@@ -24,11 +28,14 @@
     }
 
     &__copy {
-
+        height: 8rem;
+        overflow-y: auto;
     }
 
     &__image {
         order: -1;
+        height: 20rem;
+        object-fit: cover;
     }
 
     &__nav-button {

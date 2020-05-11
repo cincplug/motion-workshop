@@ -2,26 +2,26 @@
     {
         "title": "This is slide A",
         "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://via.placeholder.com/600x300"
+        "image": "https://picsum.photos/600/400?_=A"
     },
     {
         "title": "This is slide B",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://via.placeholder.com/600x300"
+        "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+        "image": "https://picsum.photos/600/400?_=B"
     },
     {
         "title": "This is slide C",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://via.placeholder.com/600x300"
+        "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+        "image": "https://picsum.photos/600/400?_=C"
     },
     {
         "title": "This is slide D",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://via.placeholder.com/600x300"
+        "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+        "image": "https://picsum.photos/600/400?_=D"
     },
     {
         "title": "This is slide E",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://via.placeholder.com/600x300"
+        "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+        "image": "https://picsum.photos/600/400?_=E"
     }
 ]

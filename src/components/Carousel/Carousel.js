@@ -1,5 +1,5 @@
 // Libs
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useSpring, animated, config } from 'react-spring'
 
@@ -10,17 +10,40 @@ import getAnimationConfiguration from '../../utils/getAnimationConfiguration';
 
 // Component
 const CarouselItem = ({ title, copy, image, isActive }) => {
+    const [isHidden, setIsHidden] = useState(!isActive);
+    useEffect(() => {
+        setTimeout(() => {
+            setIsHidden(!isActive)
+        }, 200);
+    }, [isActive]);
+
     const imageProps = useSpring(getAnimationConfiguration({
-        from: { transform: 'scale3d(0.9, 0.9, 0.9)', opacity: 0, },
-        to: { transform: 'scale3d(1, 1, 1)', opacity: 1 },
+        from: { transform: 'scale3d(0.9, 0.9, 0.9)' },
+        to: { transform: 'scale3d(1, 1, 1)' },
         config: { ...config.wobbly },
         delay: 200,
         isActive
     }))
 
-    return <li className='carousel__item' data-is-active={isActive}>
-        <h2 className='carousel__title'>{title}</h2>
-        <p className='carousel__copy'>{copy}</p>
+    const titleProps = useSpring(getAnimationConfiguration({
+        from: { transform: 'translate3d(0, 0.5rem, 0)' },
+        to: { transform: 'translate3d(0, 0rem, 0)' },
+        config: { ...config.wobbly },
+        delay: 200,
+        isActive
+    }))
+
+    const copyProps = useSpring(getAnimationConfiguration({
+        from: { transform: 'translate3d(0, -0.5rem, 0)' },
+        to: { transform: 'translate3d(0, 0rem, 0)' },
+        config: { ...config.wobbly },
+        delay: 200,
+        isActive
+    }))
+
+    return <li className='carousel__item' data-is-hidden={isHidden} data-is-active={isActive}>
+        <animated.h2 style={titleProps} className='carousel__title'>{title}</animated.h2>
+        <animated.p style={copyProps} className='carousel__copy'>{copy}</animated.p>
         <animated.img style={imageProps} className='carousel__image' src={image} alt={title} />
     </li>
 }
