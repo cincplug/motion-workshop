@@ -1,0 +1,93 @@
+@mixin heading($size) {
+    font-size:
+        map-get((
+            h1: rem(32px),
+            h2: rem(24px),
+            h3: rem(24px),
+            h4: rem(24px),
+            h5: rem(20px),
+            h6: rem(16px)
+        ), $size);
+    line-height:
+        map-get((
+            h1: 1.2,
+            h2: 1.2,
+            h3: 1.2,
+            h4: 1.2,
+            h5: 1.2,
+            h6: 1.2
+        ), $size);
+
+    @include mq($mq-tab--sml) {
+        font-size:
+        map-get((
+            h1: rem(45px),
+            h2: rem(32px),
+            h3: rem(24px),
+            h4: rem(24px),
+            h5: rem(20px),
+            h6: rem(16px)
+        ), $size);
+    }
+
+    @include mq($mq-desk--sml) {
+        font-size:
+        map-get((
+            h1: rem(60px),
+            h2: rem(45px),
+            h3: rem(32px),
+            h4: rem(24px),
+            h5: rem(20px),
+            h6: rem(16px)
+        ), $size);
+    }
+}
+
+// Elements
+body,
+input,
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,
+.h1 {
+    @include heading(h1);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h2,
+.h2 {
+    @include heading(h2);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h3,
+.h3 {
+    @include heading(h3);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h4,
+.h4 {
+    @include heading(h4);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h5,
+.h5 {
+    @include heading(h5);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+h6,
+.h6 {
+    @include heading(h6);
+    margin: 0;
+    margin-bottom: 1rem;
+}

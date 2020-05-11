@@ -8,8 +8,9 @@ import React from 'react';
 
 // Component
 const App = () => {
-  return <div>
-  </div>;
+  return <main>
+    <h1>Motion Workshop</h1>
+  </main>;
 };
 
 // Props
