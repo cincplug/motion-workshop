@@ -1,29 +1,28 @@
 // Libs
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useSpring, animated } from 'react-spring'
+import { useSpring, animated, config } from 'react-spring'
 
 // Utils
+import getAnimationConfiguration from '../../utils/getAnimationConfiguration';
 
 // Components
 
 // Component
 const CarouselItem = ({ title, copy, image, isActive }) => {
-    const animationProps = useSpring({
-        transform: 'translate3d(0,-40px,0)',
-        opacity: 1,
-        delay: isActive ? 300 : 0,
-        [isActive ? 'from' : 'to']: {
-            transform: 'translate3d(0,0px,0)',
-            opacity: 0
-        }
-    })
+    const imageProps = useSpring(getAnimationConfiguration({
+        from: { transform: 'scale3d(0.9, 0.9, 0.9)', opacity: 0, },
+        to: { transform: 'scale3d(1, 1, 1)', opacity: 1 },
+        config: { ...config.wobbly },
+        delay: 200,
+        isActive
+    }))
 
-    return <animated.li style={animationProps} className='carousel__item' data-is-active={isActive}>
+    return <li className='carousel__item' data-is-active={isActive}>
         <h2 className='carousel__title'>{title}</h2>
         <p className='carousel__copy'>{copy}</p>
-        <img className='carousel__image' src={image} alt={title} />
-    </animated.li>
+        <animated.img style={imageProps} className='carousel__image' src={image} alt={title} />
+    </li>
 }
 
 const Carousel = ({ items }) => {
