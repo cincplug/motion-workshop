@@ -22,11 +22,17 @@
     }
 
     &__item {
+        small {
+            font-size: 80%;
+            color: #c7c7c7;
+        }
     }
 
     &__link {
-        display: block;
+        display: flex;
+        justify-content: space-between;
         padding: 0.5rem 0;
+        text-decoration: none;
         color: #666666;
     }
 }

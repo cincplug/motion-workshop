@@ -42,7 +42,7 @@ const CarouselItem = ({ title, copy, image, isActive }) => {
     }))
 
     return <li className='carousel__item' data-is-hidden={isHidden} data-is-active={isActive}>
-        <animated.h2 style={titleProps} className='carousel__title'>{title}</animated.h2>
+        <animated.h2 style={titleProps} className='carousel__title h3'>{title}</animated.h2>
         <animated.p style={copyProps} className='carousel__copy'>{copy}</animated.p>
         <animated.img style={imageProps} className='carousel__image' src={image} alt={title} />
     </li>

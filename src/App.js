@@ -17,7 +17,7 @@ const App = () => {
     <Sidebar />
 
     <main>
-      <h1>Motion Workshop</h1>
+      <h1 title='Yeahhh... the contrast is bad but is says "Motion Workshop"'>Motion Workshop</h1>
 
       <Carousel items={CAROUSEL_ITEMS} />
     </main>
