@@ -1,110 +1,110 @@
 {
     "placeholder": [
         {
-            "title": "This is slide A",
+            "title": "Quisque aliquam",
             "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
             "image": "https://picsum.photos/600/400?_=A"
         },
         {
-            "title": "This is slide B",
+            "title": "Mauris nisi risus",
             "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
             "image": "https://picsum.photos/600/400?_=B"
         },
         {
-            "title": "This is slide C",
+            "title": "Cras rhoncus sapien",
             "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
             "image": "https://picsum.photos/600/400?_=C"
         },
         {
-            "title": "This is slide D",
+            "title": "Vestibulum vitae magna",
             "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
             "image": "https://picsum.photos/600/400?_=D"
         },
         {
-            "title": "This is slide E",
+            "title": "Morbi maximus",
             "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
             "image": "https://picsum.photos/600/400?_=E"
         }
     ],
     "heineken": [
         {
-            "title": "This is slide A",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "title": "When it all started",
+            "copy": "Back in 1873 a young entrepreneur named Gerard Heineken discovered a passion for brewing. So he purchased a piece of land in what is now the centre of Amsterdam, built a brewery and set about perfecting the recipe that would soon become Holland’s first ‘premium’ lager beer.",
             "image": "img/heineken/heineken-001.jpg"
         },
         {
-            "title": "This is slide B",
-            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "title": "Nation symbol of quality",
+            "copy": "Word quickly spread and the name Heineken, stamped onto every single bottle, became a national symbol of quality.",
             "image": "img/heineken/heineken-002.jpg"
         },
         {
-            "title": "This is slide C",
-            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "title": "140 years of expansion",
+            "copy": "Over the next 140 years his brewery expanded and Gerard’s children and grandchildren explored new worlds, but the name on the bottle always remained the same.",
             "image": "img/heineken/heineken-003.jpg"
         },
         {
-            "title": "This is slide D",
-            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "title": "The family name",
+            "copy": "Today, four generations later, they’re still passionate about brewing a truly premium beer. After all, when your family name is at stake, you care a little more.",
             "image": "img/heineken/heineken-004.jpg"
         },
         {
-            "title": "This is slide E",
-            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "title": "Purity of your beer",
+            "copy": "t’s been 140 years since Heineken has been able to call itself a microbrewer. And while we’re proud that 25 million Heineken’s are served each day across 192 countries, we’ve never forgotten that the quality is measured not in the size of your brand but in the purity of your beer.",
             "image": "img/heineken/heineken-005.jpg"
         }
     ],
     "nike": [
         {
-            "title": "This is slide A",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "title": "Zero carbon and zero waste",
+            "copy": "Move to Zero is Nike’s journey toward zero carbon and zero waste to help protect the future of sport. We exist to serve athletes everywhere and that’s why we’re on a mission to help ensure a healthy planet. For us, there is no finish line.",
             "image": "img/nike/nike-001.jpg"
         },
         {
-            "title": "This is slide B",
-            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "title": "The next generation",
+            "copy": "In the face of today’s challenges—from climate change to inequality to how we unleash the potential of the next generation I believe we need our boldest dreams yet.",
             "image": "img/nike/nike-002.jpg"
         },
         {
-            "title": "This is slide C",
-            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "title": "Renewable energy",
+            "copy": "When you ship so many orders every year globally, finding ways to do this more sustainably has a real impact. For example, The Court, our newest distribution center, is powered completely by renewable energy and recycles 95% of its waste.",
             "image": "img/nike/nike-003.jpg"
         },
         {
-            "title": "This is slide D",
-            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "title": "Climate action",
+            "copy": "We know that with an athlete’s mindset—determination, persistence, and relentlessness—we can use the power of sport to move the world toward climate action.",
             "image": "img/nike/nike-004.jpg"
         },
         {
-            "title": "This is slide E",
-            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "title": "Recycle your sneakers",
+            "copy": "Waste should not be wasted. Recycle your sneakers and transform them into Nike Grind material, used in performance products and sport surfaces.",
             "image": "img/nike/nike-005.jpg"
         }
     ],
-    "nuon": [
+    "vattenfall": [
         {
-            "title": "This is slide A",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-            "image": "img/nuon/nuon-001.jpg"
+            "title": "Vattenfall Europe",
+            "copy": "Vattenfall’s main markets are Sweden, Germany, the Netherlands, Denmark, and the UK. The Vattenfall Group has approximately 20,000 employees.",
+            "image": "img/vattenfall/vattenfall-001.jpg"
         },
         {
-            "title": "This is slide B",
-            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
-            "image": "img/nuon/nuon-002.jpg"
+            "title": "Vattenfall",
+            "copy": "The parent company, Vattenfall AB, is 100% owned by the Swedish state, and its headquarters are in Solna, Sweden.",
+            "image": "img/vattenfall/vattenfall-002.jpg"
         },
         {
-            "title": "This is slide C",
-            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
-            "image": "img/nuon/nuon-003.jpg"
+            "title": "The future is fossil free",
+            "copy": "We want to make fossil free living possible within one generation and we are driving the transition to a sustainable energy system.            ",
+            "image": "img/vattenfall/vattenfall-003.jpg"
         },
         {
-            "title": "This is slide D",
-            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
-            "image": "img/nuon/nuon-004.jpg"
+            "title": "This is Vattenfall",
+            "copy": "We have been electrifying industries, powering homes and transforming life through innovation for more than 100 years.",
+            "image": "img/vattenfall/vattenfall-004.jpg"
         },
         {
-            "title": "This is slide E",
-            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
-            "image": "img/nuon/nuon-005.jpg"
+            "title": "Strategy and goals",
+            "copy": "Vattenfall has developed a strategy with the purpose to Power Climate Smarter Living and enable fossil free living within one generation. This commitment to our customers, stakeholders and employees provides clear direction, engagement and focus as well as significant business opportunities.",
+            "image": "img/vattenfall/vattenfall-005.jpg"
         }
     ]
 }
