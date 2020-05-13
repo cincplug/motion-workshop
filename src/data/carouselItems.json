@@ -1,27 +1,110 @@
-[
-    {
-        "title": "This is slide A",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
-        "image": "https://picsum.photos/600/400?_=A"
-    },
-    {
-        "title": "This is slide B",
-        "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
-        "image": "https://picsum.photos/600/400?_=B"
-    },
-    {
-        "title": "This is slide C",
-        "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
-        "image": "https://picsum.photos/600/400?_=C"
-    },
-    {
-        "title": "This is slide D",
-        "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
-        "image": "https://picsum.photos/600/400?_=D"
-    },
-    {
-        "title": "This is slide E",
-        "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
-        "image": "https://picsum.photos/600/400?_=E"
-    }
-]
+{
+    "placeholder": [
+        {
+            "title": "This is slide A",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "image": "https://picsum.photos/600/400?_=A"
+        },
+        {
+            "title": "This is slide B",
+            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "image": "https://picsum.photos/600/400?_=B"
+        },
+        {
+            "title": "This is slide C",
+            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "image": "https://picsum.photos/600/400?_=C"
+        },
+        {
+            "title": "This is slide D",
+            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "image": "https://picsum.photos/600/400?_=D"
+        },
+        {
+            "title": "This is slide E",
+            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "image": "https://picsum.photos/600/400?_=E"
+        }
+    ],
+    "heineken": [
+        {
+            "title": "This is slide A",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "image": "img/heineken/heineken-001.jpg"
+        },
+        {
+            "title": "This is slide B",
+            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "image": "img/heineken/heineken-002.jpg"
+        },
+        {
+            "title": "This is slide C",
+            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "image": "img/heineken/heineken-003.jpg"
+        },
+        {
+            "title": "This is slide D",
+            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "image": "img/heineken/heineken-004.jpg"
+        },
+        {
+            "title": "This is slide E",
+            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "image": "img/heineken/heineken-005.jpg"
+        }
+    ],
+    "nike": [
+        {
+            "title": "This is slide A",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "image": "img/nike/nike-001.jpg"
+        },
+        {
+            "title": "This is slide B",
+            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "image": "img/nike/nike-002.jpg"
+        },
+        {
+            "title": "This is slide C",
+            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "image": "img/nike/nike-003.jpg"
+        },
+        {
+            "title": "This is slide D",
+            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "image": "img/nike/nike-004.jpg"
+        },
+        {
+            "title": "This is slide E",
+            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "image": "img/nike/nike-005.jpg"
+        }
+    ],
+    "nuon": [
+        {
+            "title": "This is slide A",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ante blandit, feugiat nisl ac, pretium sem. Nulla vitae est vulputate, eleifend massa vel, gravida erat. Curabitur in egestas sem. Mauris pretium orci vel mollis volutpat. Nunc egestas, nunc a consectetur mollis, sapien urna tincidunt dolor, ac scelerisque lorem ligula at est.",
+            "image": "img/nuon/nuon-001.jpg"
+        },
+        {
+            "title": "This is slide B",
+            "copy": "Integer non eleifend ligula. Nullam convallis, est quis viverra malesuada, velit ex lacinia metus, in feugiat orci mauris malesuada diam. Sed eleifend quam nibh, vel mattis magna dictum non.",
+            "image": "img/nuon/nuon-002.jpg"
+        },
+        {
+            "title": "This is slide C",
+            "copy": "Praesent gravida erat eu lacus euismod, ut maximus nisi imperdiet. Aliquam scelerisque nisl in rutrum lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Phasellus vitae leo ac quam feugiat varius. Nulla pretium odio non nunc interdum, in feugiat elit pellentesque.",
+            "image": "img/nuon/nuon-003.jpg"
+        },
+        {
+            "title": "This is slide D",
+            "copy": "Aliquam lobortis mi ac felis porttitor, ac tempus libero feugiat. Etiam vehicula sit amet libero id malesuada. Donec porta commodo dolor eu lacinia. Curabitur fringilla dolor et tellus faucibus lobortis. Suspendisse euismod feugiat orci quis aliquet. Cras sed risus volutpat, egestas enim nec, tincidunt ipsum.",
+            "image": "img/nuon/nuon-004.jpg"
+        },
+        {
+            "title": "This is slide E",
+            "copy": "Phasellus vehicula at turpis non blandit. Cras mattis est sollicitudin purus molestie finibus. Nunc efficitur placerat justo, vestibulum consectetur odio mollis ut. Integer id sem est. Cras ut metus at libero sollicitudin malesuada. Aenean quis ante sed ipsum volutpat laoreet eget vitae mi. Aliquam condimentum metus quis gravida faucibus. Aliquam posuere, nibh sit amet hendrerit gravida, magna quam vulputate lorem, at vestibulum tortor risus in augue.",
+            "image": "img/nuon/nuon-005.jpg"
+        }
+    ]
+}

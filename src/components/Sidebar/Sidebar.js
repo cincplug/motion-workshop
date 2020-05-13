@@ -97,7 +97,7 @@ SidebarItem.propTypes = {
 SidebarItem.propTypes = {
     label: string.isRequired,
     postfix: string,
-    value: string.isRequired,
+    href: string.isRequired,
     items: array
 };
 

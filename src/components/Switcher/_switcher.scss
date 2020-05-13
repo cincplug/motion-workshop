@@ -1,0 +1,30 @@
+.switcher {
+    display: flex;
+    margin: 4rem 0;
+    padding: 0;
+    list-style-type: none;
+
+    &__item {
+        flex: 1;
+        padding: 0 0.2rem;
+    }
+
+    &__button {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: white;
+        cursor: pointer;
+        transition: background-color 100ms ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: #f8f6f6;
+        }
+
+        .switcher__item[data-is-active='true'] & {
+            background-color: #e9e9e9;
+        }
+    }
+}
