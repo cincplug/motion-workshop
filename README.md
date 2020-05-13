@@ -62,7 +62,7 @@ import { config } from 'react-spring'
 
 ### `carouselItems`
 
-Some data for the carousel is already setup for you. Please feel free to make this your own in [`src/data/carouselItems.json`](src/data/carouselItems.json)
+Data for the carousel is already setup for you. Please feel free to make this your own in [`src/data/carouselItems.json`](src/data/carouselItems.json)
 
 ### `Carousel`
 You can find all of the code for the `Carousel` in [`src/components/Carousel/Carousel.js`](src/components/Carousel/Carousel.js). As you can see, in `CarouselItem` (located in the same file) you can configure the animations using the `getAnimationConfiguration` utility.

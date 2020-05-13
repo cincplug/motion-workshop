@@ -1,0 +1,38 @@
+/*** Color ***/
+$color-astronaut: #303777;
+$color-astronaut-light: lighten($color-astronaut, 3%);
+$color-astronaut-dark: darken($color-astronaut, 3%);
+
+/*** Monochrome ***/
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-gray-nickel: #bfbeB9;
+$color-gray-nickel-light: lighten($color-gray-nickel, 3%);
+$color-gray-nickel-dark: darkten($color-gray-nickel, 3%);
+
+$color-friar-gray: #807f7c;
+$color-friar-gray-light: lighten($color-friar-gray, 3%);
+$color-friar-gray-dark: darken($color-friar-gray, 3%);
+
+$color-zirkon: #fcfdff;
+$color-zirkon-light: lighten($color-zirkon, 3%);
+$color-zirkon-dark: darken($color-zirkon, 3%);
+
+$color-masala: #403f3e;
+$color-masala-light: lighten($color-masala, 3%);
+$color-masala-dark: darken($color-masala, 3%);
+
+$color-westar: #e6E4df;
+$color-westar-light: lighten($color-westar, 3%);
+$color-westar-dark: darken($color-westar, 3%);
+
+/*** Theme ***/
+$color-primary: $color-astronaut;
+$color-primary-light: lighten($color-primary, 3%);
+$color-primary-dark: darken($color-primary, 3%);
+
+/*** Gradients ***/
+$gradient-primary: linear-gradient(45deg, $color-primary, $color-primary-dark);
+$gradient-light: linear-gradient(45deg, $color-zirkon, $color-white);
+$gradient-dark: linear-gradient(45deg, $color-masala, $color-masala-dark);

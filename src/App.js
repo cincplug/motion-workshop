@@ -29,8 +29,6 @@ const App = () => {
     <Sidebar />
 
     <main>
-      <h1 title='Yeahhh... the contrast is bad but is says "Motion Workshop"'>Motion Workshop</h1>
-
       <Switcher items={BRANDS} activeItem={activeBrand} handleSelect={handleSelect} />
 
       <Carousel key={activeBrand} items={CAROUSEL_ITEMS[activeBrand]} />

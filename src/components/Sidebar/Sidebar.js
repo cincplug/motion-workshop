@@ -6,6 +6,9 @@ import PropTypes from 'prop-types';
 
 // Components
 
+// Resources
+import { ReactComponent as MotionIcon } from '../../static/img/icons/animation.svg';
+
 // Component
 const navItems = [
     {
@@ -81,7 +84,8 @@ const SidebarItems = ({ items }) => <ul className='sidebar__items'>
 
 const Sidebar = () => {
     return <aside className='sidebar'>
-        <h2 className='sidebar__heading h3'>Resources</h2>
+        <h1 className='sidebar__heading h4'>Motion Workshop <MotionIcon className='sidebar__icon' /></h1>
+
         <SidebarItems items={navItems} />
     </aside>;
 };

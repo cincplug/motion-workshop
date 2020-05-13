@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    color: #666666;
+    color: $color-friar-gray-dark;
 }
 
 #root {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    background: $gradient-light;
 
     @include mq($mq-tab--sml) {
         flex-direction: row;
@@ -24,10 +24,6 @@ main {
     > h1 {
         margin-bottom: 3rem;
         text-align: center;
-        color: #efefef;
-        background-clip: text;
-        background-color: #666666;
-        text-shadow: rgba(#f5f5f5, 0.5) 3px 5px 1px;
 
         @include mq($mq-tab--sml) {
             margin-bottom: 5rem;

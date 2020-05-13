@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { useSpring, animated, config } from 'react-spring'
 
 // Utils
-import getAnimationConfiguration from '../../utils/getAnimationConfiguration';
+import getAnimationConfiguration from '../../static/js/utils/getAnimationConfiguration';
 
 // Components
 
@@ -34,7 +34,7 @@ const CarouselItem = ({ title, copy, image, isActive }) => {
     }))
 
     const copyProps = useSpring(getAnimationConfiguration({
-        from: { transform: 'translate3d(0, -0.5rem, 0)', opacity: 0 },
+        from: { transform: 'translate3d(0, 0.5rem, 0)', opacity: 0 },
         to: { transform: 'translate3d(0, 0rem, 0)', opacity: 1 },
         config: { ...config.wobbly },
         delay: 200,
@@ -42,8 +42,10 @@ const CarouselItem = ({ title, copy, image, isActive }) => {
     }))
 
     return <li className='carousel__item' data-is-hidden={isHidden} data-is-active={isActive}>
-        <animated.h2 style={titleProps} className='carousel__title h3'>{title}</animated.h2>
-        <animated.p style={copyProps} className='carousel__copy'>{copy}</animated.p>
+        <div className='carousel__content'>
+            <animated.h2 style={titleProps} className='carousel__title h4'>{title}</animated.h2>
+            <animated.p style={copyProps} className='carousel__copy'>{copy}</animated.p>
+        </div>
         <animated.img style={imageProps} className='carousel__image' src={image} alt={title} />
     </li>
 }
