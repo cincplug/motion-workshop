@@ -59,6 +59,11 @@ const navItems = [
                 href: 'https://www.react-spring.io/docs/hooks/examples',
             }
         ]
+    },
+    {
+        label: 'React Spring Visualiser',
+        postfix: 'Optional',
+        href: 'https://react-spring-visualizer.com/',
     }
 ];
 
