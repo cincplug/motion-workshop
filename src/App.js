@@ -1,5 +1,5 @@
 // Libs
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import PropTypes from 'prop-types';
 
 // Utils
@@ -15,9 +15,15 @@ import Switcher from './components/Switcher/Switcher';
 
 // Component
 const App = () => {
-  const [activeBrand, setActiveBrand] = useState(BRANDS[0].id);
+  const [activeBrand, setActiveBrand] = useState(sessionStorage.getItem('activeBrand') || BRANDS[0].id);
 
-  const handleSelect = id => { setActiveBrand(id) };
+  const handleSelect = id => {
+    setActiveBrand(id)
+  };
+
+  useEffect(() => {
+    sessionStorage.setItem('activeBrand', activeBrand);
+  }, [activeBrand]);
 
   return <>
     <Sidebar />
