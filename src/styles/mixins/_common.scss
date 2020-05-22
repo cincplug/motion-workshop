@@ -1,0 +1,3 @@
+@mixin emphasize-bottom($width: 0.3rem) {
+    border-bottom: $width inset $color-gray-nickel-light;
+}
